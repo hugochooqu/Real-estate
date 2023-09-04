@@ -1,0 +1,41 @@
+.owner{
+    background-color: rgb(17, 7, 75);
+    height: 60vh;
+    width: 100vw;
+}
+
+.text{
+   padding-left: 70px;
+   padding-top: 30px; 
+   width: 40vw;
+}
+
+.text h1{
+    margin-bottom: 0px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.text h2{
+    margin: 0px;
+    font-size: 38px;
+    color: rgb(126, 117, 117);
+}
+
+.text p{
+    color: white;
+    font-size: large;
+}
+
+.button{
+    background-color: rgb(46, 18, 202);
+    width: 120px;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    margin-top: 15px ;
+}
+
+.button:hover{
+    background-color: rgb(32, 13, 141);
+}

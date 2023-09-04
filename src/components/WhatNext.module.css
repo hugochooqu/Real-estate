@@ -1,0 +1,47 @@
+.next{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1EFEC;
+    width: 100vw;
+    margin: 0px;
+    text-align: center;
+}
+
+.next img{
+    width: 55vw;
+    height: 75vh;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+
+.button{
+    width: 300px;
+    height: 60px;
+    position: relative;
+    top: 15px;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: rgb(17, 7, 75);
+    color: rgb(17, 7, 75);
+    font-size: medium;
+}
+
+.nextText{
+    padding-top: 50px;
+}
+
+.next h1{
+    font-size: 50px;
+    color: rgb(17, 7, 75);
+}
+
+.next p{
+    padding: 5px 220px;
+
+}
+

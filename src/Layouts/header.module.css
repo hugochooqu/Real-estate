@@ -1,0 +1,25 @@
+.header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-around;
+  background-color: rgba(0,0,0,0.2);
+  color: white;
+  position: fixed;
+  z-index: 1;
+}
+
+.navigate ul {
+  display: flex;
+  flex-direction: row;
+  gap: 46px;
+  list-style: none;
+}
+
+.navigate li {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: normal;
+}

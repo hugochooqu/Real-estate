@@ -1,0 +1,12 @@
+.summary{
+    text-align: center;
+}
+
+.summary h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.summary p{
+    font-size: large;
+}

@@ -1,0 +1,8 @@
+.cardImg{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.cardTitle {
+    margin: 0.5rem 5%;
+}

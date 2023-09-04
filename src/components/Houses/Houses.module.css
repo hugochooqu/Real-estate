@@ -1,0 +1,18 @@
+.houses{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    background-color: white;
+}
+
+.heading{
+    margin: 0%;
+    width: 90vw;
+}
+
+.heading h3{
+    margin: 0%;
+}
+

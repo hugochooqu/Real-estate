@@ -1,0 +1,85 @@
+.services {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    width: 100vw;
+    margin-bottom: 20px;
+    gap: 30px;
+}
+
+.interior {
+    background-image: url('../assets/interior.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 70px;
+    margin-left: 130px;
+    height: 80vh;
+    width: 40vw;
+    position: relative;
+}
+
+.interiorText {
+    background-color: white;
+    width: 20vw;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    color: rgb(17, 7, 75);
+}
+
+.interiorText P{
+    width: 200px;
+}
+
+.button{
+    width: 160px;
+    border-radius: 0%;
+    border-width: 1px;
+    border-color: rgb(17, 7, 75);
+    background-color: white;
+}
+
+.buildings{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.luxury{
+    background-image: url('../assets/luxury.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+    position: relative;
+    margin-top: 50px;
+}
+
+.luxuryText {
+    background-color: white;
+    width: 15vw;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    color: rgb(17, 7, 75);
+}
+
+.commercial {
+    background-image: url('../assets/commercial.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+    position: relative;
+}
+
+
+.commercialText {
+    background-color: white;
+    width: 18vw;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgb(17, 7, 75);
+}
