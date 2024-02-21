@@ -1,10 +1,18 @@
-import { Navbar } from "../components";
+import { LandingPage, Navbar } from "../components";
 import styles from "./page.module.css";
 
-export default function Home() {
+import { getData } from "../lib/client";
+
+export default async function Home() {
+  const data = await getData()
+  const bannerData = data.banner;
+  console.log(bannerData)
   return (
     <main className={styles.main}>
+      <div className="homepage">
       <Navbar />
+      </div>
+      <LandingPage bannerData={bannerData[0]} />
     </main>
   );
 }

@@ -28,3 +28,83 @@ body{
   line-height: normal;
   cursor: pointer;
 }
+
+.homepage{
+  background-image: url("../public/indoor.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+  width: 100vw;
+  background-size: 100vw;
+}
+
+.houses{
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  background-color: white;
+}
+
+.summary{
+  text-align: center;
+}
+
+.summary h1{
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.summary p{
+  font-size: large;
+}
+
+.sell-house{
+  display: flex;
+  flex-direction: row;
+  padding: 150px 70px 50px 80px;
+}
+
+.sell-house-info {
+  padding: 0px 120px 0px 0px;
+}
+
+.sell-house-info h1{
+  font-size: 40px;
+  color: rgb(17, 7, 75)
+}
+.sell-house-info p{
+  font-size: medium;
+  font-weight: 350;
+  width: 40vw;
+}
+
+.sell-buy{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.sell{
+  background-color: rgb(17, 7, 75);
+  border: 0px;
+  color: white;
+  width: 100px;
+  height: 40px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.sell:hover{
+  background-color: rgb(11, 4, 49);
+}
+
+.buy{
+  background-color: white;
+  border-color: rgb(17, 7, 75);
+  color: rgb(17, 7, 75);
+  width: 100px;
+  height: 40px;
+  font-weight: 500;
+  border-radius: 10px;
+}
