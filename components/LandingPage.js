@@ -8,7 +8,7 @@ import Image from "next/image";
 const LandingPage = ({
   bannerData: { desc, _id, buttonText1, buttonText2 },
 }) => {
-  console.log(desc);
+
 
   return (
     <div>

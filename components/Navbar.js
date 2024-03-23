@@ -1,6 +1,7 @@
 "use client"
 
 import React, {useState, useEffect} from 'react';
+import Link from 'next/link';
 
 const Navbar = () => {
     const [navbar, setNavbar] = useState();
@@ -20,7 +21,7 @@ const Navbar = () => {
         <div style={{backgroundColor: navbar}} className='header'>
       <div className='navigate'>
         <ul>
-          <li>Buy</li>
+          <li><Link href='/property'>Buy</Link></li>
           <li>Rent</li>
           <li>Sell</li>
           <li>Agent finder</li>

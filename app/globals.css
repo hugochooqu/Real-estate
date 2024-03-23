@@ -27,6 +27,12 @@ body{
   font-weight: 500;
   line-height: normal;
   cursor: pointer;
+  color: white;
+}
+
+.navigate li Link{
+  text-decoration: none;
+
 }
 
 .homepage{
@@ -292,4 +298,8 @@ body{
 .next p{
   padding: 5px 220px;
 
+}
+
+.property-list{
+  position: relative;
 }
