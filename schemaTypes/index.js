@@ -1,4 +1,4 @@
-import banner from "./banner";
-import product from "./product";
+import banner from "../sanity/banner";
+import product from "../sanity/product";
 
 export const schemaTypes = [product, banner]

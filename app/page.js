@@ -6,7 +6,7 @@ import { getData } from "../lib/client";
 export default async function Home() {
   const data = await getData()
   const bannerData = data.banner;
-  console.log(bannerData)
+  console.log(data.products)
   return (
     <main className={styles.main}>
       <div className="homepage">

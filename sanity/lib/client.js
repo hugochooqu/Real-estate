@@ -1,10 +1,11 @@
 import { createClient, groq } from "next-sanity";
 
 
-import {apiVersion, dataset, projectId, useCdn} from '../lib/env';
+import {apiVersion, dataset, projectId, useCdn} from '../env';
 
 export async function getData() {
     "use server"
+
     const client = createClient({
         apiVersion,
         projectId,
@@ -20,6 +21,8 @@ export async function getData() {
     const bannerQuery = groq`*[_type == "banner"]`;
     const banner = await client.fetch(bannerQuery)
 
+
+    console.log(`products: ${products} banner:${banner}`)
     return {
         products, banner
     }

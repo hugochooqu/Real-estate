@@ -5,9 +5,7 @@ import sellPics from "../public/home1.jpg";
 import Commercial from "../public/commercial.jpg"
 import Image from "next/image";
 
-const LandingPage = ({
-  bannerData: { desc, _id, buttonText1, buttonText2 },
-}) => {
+const LandingPage = () => {
 
 
   return (
@@ -26,10 +24,10 @@ const LandingPage = ({
       <div id="sell-house" className="sell-house">
         <div className="sell-house-info">
           <h1>Ready to make a move ?</h1>
-          <p>{desc}</p>
+          <p></p>
           <div className="sell-buy">
-            <button className="sell">{buttonText1}</button>
-            <button className="buy">{buttonText2}</button>
+            <button className="sell">Sell</button>
+            <button className="buy">Buy</button>
           </div>
         </div>
         <div>

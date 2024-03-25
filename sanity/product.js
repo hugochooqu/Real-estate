@@ -38,8 +38,9 @@ export default {
         },
         {
             name: 'location',
-            title: 'Locatiom',
+            title: 'Location',
             type: 'string'
-        }
+        },
+    
     ]
 }
